@@ -6,13 +6,13 @@ A school district employee, Maria, reached out to request an analysis of the sch
 ####
 Below are the following findings from the analysis once the ninth graders' scores were replaced. 
 * The district summary data frame had miniscule changes as this data frame looked at the whole of both CSV files. There is enough data amongst all of the other high schools to make up for the removal of fraudulent scores from one grade level in one school. The largest difference in scoring is .3%, as seen below. 
-#### ![pre ds df]()
-#### ![post ds df]()
+#### ![pre ds df](https://github.com/victoriaguille/School_District_Analysis/blob/main/resources/district_summary_pre_replacement.PNG)
+#### ![post ds df](https://github.com/victoriaguille/School_District_Analysis/blob/main/resources/district_summary_post_replacement.PNG)
 ####
 * The school summary data frame had the highest change, and only for one school, Thomas High School. The scores for the other high schools stayed the same from the previous analysis as Thomas High School was the only school to have any changes to their reporting. 
 * Replacing the ninth graders' scores at Thomas High School with "NaN" made it so that roughly a fourth of the students' information no longer could be used for any averages or calculations. This meant that the overall percentages of Thomas High School were significantly boosted. At minimum, each percentage average for Thomas High School was increased by twenty-five percent from the original analysis. The averages of the reading and math score, however, remained in line with the rest of the high schools. removing the data for the ninth graders in thomas significantly boosts the overall percentages of thomas high by at minimum twenty-five percent from original data. In the below images, without the ninth graders' scores, Thomas High School looks like one of the top performing schools. 
-#### ![pre ss df]()
-#### ![post ss df] ()
+#### ![pre ss df](https://github.com/victoriaguille/School_District_Analysis/blob/main/resources/school_summary_pre_replacement.PNG)
+#### ![post ss df](https://github.com/victoriaguille/School_District_Analysis/blob/main/resources/school_summary_post_replacement.PNG)
 ####
 * The math and reading scores by grade have little to no change when placed into an edited dataframe. The only difference that is seen is that there is now "NaN" in the 9th grade column for Thomas High School.  
 * The scores by school spending dataframe also has little to no change with the new ninth-grade scores. This is due to the fact that the dollar amount per student stays the same, so spending per student has little impact to the overall picture being shown. 
