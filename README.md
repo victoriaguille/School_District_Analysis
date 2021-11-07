@@ -13,3 +13,4 @@ requested by a school district employee, maria, to perform an analysis using pan
 * school type not impacted. same as above, plus charter schools were larger anyways
 ## Summary
 ####
+the different dfs provide different pictures from the data. prior to the discovery of the fraudulent grades, the data showed a very different picture for thomas high. removing the grades did little to impact the entire disctrict summary. on its own, removal of those grades skews the analysis of thomas high more positively. 
