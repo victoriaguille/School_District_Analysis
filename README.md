@@ -1,7 +1,7 @@
 # School District Analysis
 ## Overview of School District Analysis
 ####
-requested by a school district employee, maria, to perform an analysis using pandas and python. looked at all high schools in the district using grades, budget, and averages. replaced academic dishonesty with nan. broke down the two csv files into several different dfs to compare. 
+A school district employee, Maria, reached out to request an analysis of the school district's data using Python, Pandas, and Juypter Notebook. In this analysis, fifteen high schools, both charter and district, were compared to better understand what trends are occuring. Each school had gathered data based on grade levels, budget, and grades for their high school students within two CSV files. With the use of Python and Jupyter Notebook, dataframes were created to allow the school board to easily read the long strings of data with a quick glance. At the end of this initial process, it was discovered by the school board that the students_complete.csv file had evidence of academic dishonesty when reporting the grades of the ninth graders from Thomas High School. In order to still provide an analysis for the school board, those grades were replaced with "NaN" and the previous calculations refactored to include all of the true reporting only.
 ## Results
 ####
 * changes made in district summary are miniscule. enough data amongst all schools to make up for the removal of fraudulent grades from one grade level in one school. (insert comparison images). 
